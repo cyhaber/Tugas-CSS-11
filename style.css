@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+ul {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+
+}
+ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 2rem;
+}
+.content {
+    margin: 2rem;
+   
+}
+p {
+     height: 400px;
+    column-width: 300px;
+    column-fill: balance;
+    column-rule: 2px solid black;
+}
+.judul  {
+    column-span: all;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
